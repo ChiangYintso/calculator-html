@@ -1,0 +1,91 @@
+.container {
+    margin: 2em auto 0 auto;
+    width: 480px;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.16);
+    border: 3px solid #000000;
+    border-radius: 3px;
+}
+
+.header {
+    height: 30px;
+    position: relative;
+    background: rgba(238, 220, 220, 1);
+}
+
+.header .icon-about {
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    margin: 5px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+.screen {
+    height: 170px;
+    background-color: #ffffff;
+}
+
+.screen #formula {
+    text-align: right;
+    height: 60px;
+    line-height:60px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.screen #number {
+    text-align: right;
+    height: 110px;
+    line-height:110px;
+    margin-right: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.row {
+    display: flex;
+    height: 80px;
+}
+
+.row .left-btn {
+    border-left: 0;
+}
+
+.row .right-btn {
+    border-right: 0;
+}
+
+.row span {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    border: 1px solid #ffffff;
+    height: 100%;
+    align-items: center;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.row span:active {
+    background-color: #e0ecaa;
+}
+
+.row #zero {
+    width: 239px;
+    flex: none;
+    border-bottom: 0;
+}
+
+.row #dot {
+    border-bottom: 0;
+    flex: 1;
+}
+
+.row #equal {
+    border-bottom: 0;
+    flex: 1;
+}
